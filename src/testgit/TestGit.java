@@ -5,6 +5,9 @@
  */
 package testgit;
 
+import java.sql.Date;
+import java.time.LocalDate;
+
 /**
  *
  * @author Subin
@@ -17,6 +20,7 @@ public class TestGit {
     public static void main(String[] args) {
         System.out.println("TestGit");
         System.out.println("Changes made");
+        System.out.println(Date.valueOf(LocalDate.MIN));
     }
     
 }
